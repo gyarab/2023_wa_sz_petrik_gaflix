@@ -10,4 +10,4 @@
 ### Run server
 1. `python manage.py runserver`
 
-*Last edited 15.3.2024*
+*Last edited 22.3.2024*
