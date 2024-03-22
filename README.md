@@ -7,6 +7,7 @@
 1. `source ./venv/Scripts/activate`
 2. `pip install -r requirements.txt`
 
-
+### Run server
+1. `python manage.py runserver`
 
 *Last edited 15.3.2024*
