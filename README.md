@@ -10,4 +10,8 @@
 ### Run server
 1. `python manage.py runserver`
 
-*Last edited 22.3.2024*
+### Migrations
+1. `python manage.py makemigrations`
+2. `python manage.py migrate`
+
+*Last edited 13.5.2024*
