@@ -1,11 +1,13 @@
 {% extends 'filmy/base.html'%}
 
 
-{% block 'title' %} 
-Gaflix - druhy
-{% endblock %}
+{% block 'title' %} {{ block.super }} - druhy {% endblock %}
 
 {% block 'content' %}
-<h1> Druha vec </h1>
-
+    <h1>Druha template</h1>
+    <ul>
+        <li>Jedna</li>
+        <li>Dva</li>
+        <li>Tri</li>
+    </ul>
 {% endblock %}
