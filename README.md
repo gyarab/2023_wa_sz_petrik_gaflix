@@ -17,4 +17,7 @@
 #### Create admin
 - `./manage.py createsuperuser`
 
+### Test data
+- `./manage.py dumpdata --indent 2 filmy.MODELNAME > fixtures/FILENAMEOFMODEL.json` 
+
 *Last edited 17.5.2024*
