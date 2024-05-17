@@ -1,0 +1,9 @@
+[
+{
+  "model": "filmy.genre",
+  "pk": 1,
+  "fields": {
+    "name": "fantasy"
+  }
+}
+]

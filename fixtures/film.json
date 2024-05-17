@@ -1,0 +1,35 @@
+[
+{
+  "model": "filmy.movie",
+  "pk": 1,
+  "fields": {
+    "name": "Kdo byl v Paříži",
+    "year": 2000,
+    "footage": 165,
+    "description": "",
+    "main_picture": "Paris.jpg"
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 2,
+  "fields": {
+    "name": "Skibidi toilet",
+    "year": 2024,
+    "footage": 69,
+    "description": "epic adventure of skibidi toilet escaping from furious camera-men agents",
+    "main_picture": "toilet.jpg"
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 3,
+  "fields": {
+    "name": "bob a bobek",
+    "year": null,
+    "footage": null,
+    "description": "Super věc",
+    "main_picture": ""
+  }
+}
+]
