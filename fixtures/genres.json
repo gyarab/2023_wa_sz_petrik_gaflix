@@ -5,5 +5,33 @@
   "fields": {
     "name": "fantasy"
   }
+},
+{
+  "model": "filmy.genre",
+  "pk": 2,
+  "fields": {
+    "name": "action"
+  }
+},
+{
+  "model": "filmy.genre",
+  "pk": 3,
+  "fields": {
+    "name": "horror"
+  }
+},
+{
+  "model": "filmy.genre",
+  "pk": 4,
+  "fields": {
+    "name": "comedy"
+  }
+},
+{
+  "model": "filmy.genre",
+  "pk": 5,
+  "fields": {
+    "name": "thriller"
+  }
 }
 ]

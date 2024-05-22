@@ -31,5 +31,27 @@
     "description": "Super věc",
     "main_picture": ""
   }
+},
+{
+  "model": "filmy.movie",
+  "pk": 4,
+  "fields": {
+    "name": "Plump Fiction",
+    "year": 1997,
+    "footage": 82,
+    "description": "Komediálny efekt je založený na citátoch známych scén z úspešných filmov poslednej doby. Ako naznačuje názov filmu, najviac sa uťahuje z Tarantinových filmov a s chuťou sa tu prehrávajú scény z najrôznejšich gangsteriek, komédií a psychologických filmov",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 5,
+  "fields": {
+    "name": "Titanic II",
+    "year": 2010,
+    "footage": 90,
+    "description": "Představte si, že o 100 let později po havárii slavného Titanicu vyplouvá jeho přímá kopie a co dramatického jej čeká? Bude to stejný osud? Opravdu nelze zabránit tomu, aby se historie opakovala? (ČSFD)",
+    "main_picture": ""
+  }
 }
 ]
