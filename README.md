@@ -1,23 +1,19 @@
 # 2023_wa_sz_petrik_gaflix
 
-### Create venv
+### Venv
 - `py -3 -m venv venv`
+- `source ./venv/Scripts/activate`
+- `pip install -r requirements.txt`
 
-### Activation
-1. `source ./venv/Scripts/activate`
-2. `pip install -r requirements.txt`
+### Server & migrations
+- run server - `python manage.py runserver`
+- `python manage.py makemigrations`
+- `python manage.py migrate`
+- admin - `python manage.py createsuperuser`
 
-### Run server
-- `python manage.py runserver`
+### Fixtures
+- dump test data`./manage.py dumpdata --indent 2 filmy.MODELNAME > fixtures/FILENAMEOFMODEL.json`  
+  UTF-8 Chars: sh - `export PYTHONIOENCODING=utf-8 && python manage.py dumpdata --indent 2 filmy.Movie > fixtures/film.json`
+- load fixtures - `python manage.py loaddata your_fixture_file.json`
 
-### Migrations
-1. `python manage.py makemigrations`
-2. `python manage.py migrate`
-
-#### Create admin
-- `./manage.py createsuperuser`
-
-### Test data
-- `./manage.py dumpdata --indent 2 filmy.MODELNAME > fixtures/FILENAMEOFMODEL.json` 
-
-*Last edited 17.5.2024*
+*Last edited 22.5.2024*
