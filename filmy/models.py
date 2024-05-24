@@ -6,15 +6,28 @@ class Movie(models.Model):
     footage = models.PositiveSmallIntegerField(blank=True, null=True, help_text="in minutes")
     description = models.TextField(blank=True)
     main_picture = models.ImageField(blank=True, null=True)
+    director = models.ForeignKey('Director', blank=True, null = True, on_delete=models.SET_NULL)
+    actor = models.ManyToManyField('Actor', blank=True)
+    genre = models.ManyToManyField('Genre', blank=True)
+
 
     def __str__(self):
         return self.name
+    
+
+    def genres_display(self):
+        
+        #a = self.genre.all()
+        #out =  
+        
+        return ", ".join(i.name for i in self.genre.all())
 
 class Director(models.Model):
     name = models.CharField(max_length=300)
     birth_year = models.PositiveSmallIntegerField(blank=True, null=True)
     description = models.TextField(blank=True)
     main_picture = models.ImageField(blank=True, null=True)
+    
 
     def __str__(self):
         return self.name
