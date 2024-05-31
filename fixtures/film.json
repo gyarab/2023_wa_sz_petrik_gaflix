@@ -7,7 +7,13 @@
     "year": 2000,
     "footage": 165,
     "description": "",
-    "main_picture": "Paris.jpg"
+    "main_picture": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.imgflip.com%2F1rwqgu.jpg&f=1&nofb=1&ipt=222ce1e7ac236fa7955c5c75545f37033feb3d44f1ce702b049393c46cc2f629&ipo=images",
+    "director": 3,
+    "actor": [],
+    "genre": [
+      1,
+      3
+    ]
   }
 },
 {
@@ -18,7 +24,10 @@
     "year": 2024,
     "footage": 69,
     "description": "epic adventure of skibidi toilet escaping from furious camera-men agents",
-    "main_picture": "toilet.jpg"
+    "main_picture": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ixpap.com%2Fimages%2F2023%2F07%2FSkibidi-Toilet-Wallpaper-11-500x889.jpg&f=1&nofb=1&ipt=75d8da71c66adb66db5063a51323dcf5168ca18ed7a3faa41d2b70af51f25462&ipo=images",
+    "director": null,
+    "actor": [],
+    "genre": []
   }
 },
 {
@@ -26,10 +35,13 @@
   "pk": 3,
   "fields": {
     "name": "bob a bobek",
-    "year": null,
+    "year": 1979,
     "footage": null,
     "description": "Super věc",
-    "main_picture": ""
+    "main_picture": "//image.pmgstatic.com/cache/resized/w140/files/images/film/posters/159/857/159857121_dfcaba.jpg",
+    "director": null,
+    "actor": [],
+    "genre": []
   }
 },
 {
@@ -40,7 +52,12 @@
     "year": 1997,
     "footage": 82,
     "description": "Komediálny efekt je založený na citátoch známych scén z úspešných filmov poslednej doby. Ako naznačuje názov filmu, najviac sa uťahuje z Tarantinových filmov a s chuťou sa tu prehrávajú scény z najrôznejšich gangsteriek, komédií a psychologických filmov",
-    "main_picture": ""
+    "main_picture": "//image.pmgstatic.com/cache/resized/w140/files/images/film/posters/158/016/158016762_737d4f.gif",
+    "director": null,
+    "actor": [],
+    "genre": [
+      4
+    ]
   }
 },
 {
@@ -51,7 +68,10 @@
     "year": 2010,
     "footage": 90,
     "description": "Představte si, že o 100 let později po havárii slavného Titanicu vyplouvá jeho přímá kopie a co dramatického jej čeká? Bude to stejný osud? Opravdu nelze zabránit tomu, aby se historie opakovala? (ČSFD)",
-    "main_picture": ""
+    "main_picture": "//image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/400/400826_kxunoc.jpg",
+    "director": null,
+    "actor": [],
+    "genre": []
   }
 }
 ]
