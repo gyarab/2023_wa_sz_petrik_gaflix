@@ -1,2 +1,52 @@
 [
+{
+  "model": "filmy.actor",
+  "pk": 1,
+  "fields": {
+    "name": "Joe",
+    "birth_year": 2024,
+    "description": "has a nice career",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 2,
+  "fields": {
+    "name": "Tom Cruz",
+    "birth_year": 1969,
+    "description": "clone of famous actor which you might know",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 3,
+  "fields": {
+    "name": "Xin Jon Ping Lin",
+    "birth_year": 200,
+    "description": "An old classic",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 4,
+  "fields": {
+    "name": "Skibidon",
+    "birth_year": 2000,
+    "description": "The one who rules the see",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 5,
+  "fields": {
+    "name": "Faker",
+    "birth_year": 2016,
+    "description": "Actor from league of legends",
+    "main_picture": ""
+  }
+}
 ]
