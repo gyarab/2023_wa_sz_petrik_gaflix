@@ -27,7 +27,9 @@
     "main_picture": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ixpap.com%2Fimages%2F2023%2F07%2FSkibidi-Toilet-Wallpaper-11-500x889.jpg&f=1&nofb=1&ipt=75d8da71c66adb66db5063a51323dcf5168ca18ed7a3faa41d2b70af51f25462&ipo=images",
     "director": null,
     "actor": [],
-    "genre": []
+    "genre": [
+      5
+    ]
   }
 },
 {
@@ -40,8 +42,12 @@
     "description": "Super věc",
     "main_picture": "//image.pmgstatic.com/cache/resized/w140/files/images/film/posters/159/857/159857121_dfcaba.jpg",
     "director": null,
-    "actor": [],
-    "genre": []
+    "actor": [
+      2
+    ],
+    "genre": [
+      3
+    ]
   }
 },
 {
@@ -56,6 +62,7 @@
     "director": null,
     "actor": [],
     "genre": [
+      3,
       4
     ]
   }
@@ -69,9 +76,13 @@
     "footage": 90,
     "description": "Představte si, že o 100 let později po havárii slavného Titanicu vyplouvá jeho přímá kopie a co dramatického jej čeká? Bude to stejný osud? Opravdu nelze zabránit tomu, aby se historie opakovala? (ČSFD)",
     "main_picture": "//image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/400/400826_kxunoc.jpg",
-    "director": null,
-    "actor": [],
-    "genre": []
+    "director": 3,
+    "actor": [
+      2
+    ],
+    "genre": [
+      2
+    ]
   }
 }
 ]
