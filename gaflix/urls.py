@@ -25,10 +25,10 @@ urlpatterns = [
     path("", TemplateView.as_view(template_name="filmy/prvni.html")),
     path("druha/", TemplateView.as_view(template_name="filmy/druha.html")),
     path("filmy/", movies, name="movies"),
-    path("filmy/<int:id>", movie, name="movie"),
-    path("actors", actors, name="actors"),
-    path("filmy/<int:id>", actor, name="actor"),
-    path("filmy/", directors, name="directors"),
-    path("filmy/<int:id>", director, name="director"),
+    path("film/<int:id>", movie, name="movie"),
+    path("herci/", actors, name="actors"),
+    path("herec/<int:id>", actor, name="actor"),
+    path("reziseri/", directors, name="directors"),
+    path("reziser/<int:id>", director, name="director"),
 ]
 
