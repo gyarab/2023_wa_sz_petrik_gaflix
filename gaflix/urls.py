@@ -18,13 +18,17 @@ from django.contrib import admin
 from django.urls import path
 from django.views.generic import TemplateView
 
-from filmy.views import movies
+from filmy.views import movies, movie, director, directors, actor, actors
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", TemplateView.as_view(template_name="filmy/prvni.html")),
     path("druha/", TemplateView.as_view(template_name="filmy/druha.html")),
     path("filmy/", movies, name="movies"),
-    #path("film/<int:id>", movie, name="movie"),
+    path("filmy/<int:id>", movie, name="movie"),
+    path("actors", actors, name="actors"),
+    path("filmy/<int:id>", actor, name="actor"),
+    path("filmy/", directors, name="directors"),
+    path("filmy/<int:id>", director, name="director"),
 ]
 

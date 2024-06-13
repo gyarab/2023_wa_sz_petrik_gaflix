@@ -1,0 +1,11 @@
+{% extends 'filmy/base.html' %}
+
+{% block 'title' %}{{movie.name}} | {{ block.super }}{% endblock %}
+
+{% block 'content' %}
+    <h1>{{ movie.name }}</h1>
+
+    <p>
+        {{movie.description}}
+    </p>
+{% endblock %}

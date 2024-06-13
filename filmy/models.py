@@ -16,7 +16,6 @@ class Movie(models.Model):
     
 
     def genres_display(self):
-           
         return ", ".join(i.name for i in self.genre.all())
 
 class Director(models.Model):
