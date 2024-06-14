@@ -17,8 +17,11 @@
 - load fixtures - `python manage.py loaddata fixtures/*.json`
 
 ### Deployment cmds
-- print file content `cat settings.py`
-- edit file content `nano settings.py`
+- git clone `https://github.com/gyarab/2023_wa_sz_petrik_gaflix`
 - show dir content  `ls`
+- edit file content `nano settings.py`
+- print file content `cat settings.py`
+- show id `id` 
+- run server `python manage.py runserver 0.0.0.0:8020`
 
 *Last edited 14.6.2024*
