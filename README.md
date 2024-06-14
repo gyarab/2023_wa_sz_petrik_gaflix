@@ -16,4 +16,9 @@
   UTF-8 Chars: sh - `export PYTHONIOENCODING=utf-8 && python manage.py dumpdata --indent 2 filmy.Movie > fixtures/film.json`
 - load fixtures - `python manage.py loaddata fixtures/*.json`
 
+### Deployment cmds
+- print file content `cat settings.py`
+- edit file content `nano settings.py`
+- show dir content  `ls`
+
 *Last edited 14.6.2024*
