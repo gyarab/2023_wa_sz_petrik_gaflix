@@ -23,5 +23,6 @@
 - print file content `cat settings.py`
 - show id `id` 
 - run server `python manage.py runserver 0.0.0.0:8020`
+  http://wa.dtcloud.cz:8020
 
 *Last edited 14.6.2024*
