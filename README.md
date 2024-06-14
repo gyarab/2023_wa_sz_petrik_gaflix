@@ -19,7 +19,7 @@
 ### Deployment cmds
 - git clone `https://github.com/gyarab/2023_wa_sz_petrik_gaflix`
 - show dir content  `ls`
-- edit file content `nano settings.py`
+- edit file content `nano settings.py`  ALLOWED_HOSTS = ["wa.dtcloud.cz"] 
 - print file content `cat settings.py`
 - show id `id` 
 - run server `python manage.py runserver 0.0.0.0:8020`
