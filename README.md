@@ -14,6 +14,6 @@
 ### Fixtures
 - dump test data`./manage.py dumpdata --indent 2 filmy.MODELNAME > fixtures/FILENAMEOFMODEL.json`  
   UTF-8 Chars: sh - `export PYTHONIOENCODING=utf-8 && python manage.py dumpdata --indent 2 filmy.Movie > fixtures/film.json`
-- load fixtures - `python manage.py loaddata fixtures/film.json`
+- load fixtures - `python manage.py loaddata fixtures/*.json`
 
 *Last edited 14.6.2024*
