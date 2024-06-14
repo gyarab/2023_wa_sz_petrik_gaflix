@@ -1,8 +1,8 @@
 # 2023_wa_sz_petrik_gaflix
 
 ### Venv
-- `py -3 -m venv venv`
-- `source ./venv/Scripts/activate`
+- `python3 -m venv venv`
+- `source ./venv/bin/activate`
 - `pip install -r requirements.txt`
 
 ### Server & migrations
@@ -16,4 +16,4 @@
   UTF-8 Chars: sh - `export PYTHONIOENCODING=utf-8 && python manage.py dumpdata --indent 2 filmy.Movie > fixtures/film.json`
 - load fixtures - `python manage.py loaddata fixtures/film.json`
 
-*Last edited 24.5.2024*
+*Last edited 14.6.2024*
